@@ -18,7 +18,7 @@ public class HomeScreen extends Activity {
     ListView dra_list;
     //CustomDrawerAdapter custom;
     
-    // check out for that version
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
