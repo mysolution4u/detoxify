@@ -16,7 +16,7 @@ public class HomeScreen extends Activity {
     String[] name_list = {"Profile","Blogs","Diet", "PHR", "Near By", "Consult"};
     Integer[] image_list = {R.drawable.eye, R.drawable.eye, R.drawable.eye, R.drawable.eye, R.drawable.eye, R.drawable.eye};
     ListView dra_list;
-    CustomDrawerAdapter custom;
+    //CustomDrawerAdapter custom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +30,8 @@ public class HomeScreen extends Activity {
 
         dra_list.addHeaderView(header, null, false);
 
-        custom = new CustomDrawerAdapter(HomeScreen.this, name_list, image_list);
-        dra_list.setAdapter(custom);
+       // custom = new CustomDrawerAdapter(HomeScreen.this, name_list, image_list);
+        //dra_list.setAdapter(custom);
 
     }
 }
