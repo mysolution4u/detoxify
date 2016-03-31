@@ -17,6 +17,8 @@ public class HomeScreen extends Activity {
     Integer[] image_list = {R.drawable.eye, R.drawable.eye, R.drawable.eye, R.drawable.eye, R.drawable.eye, R.drawable.eye};
     ListView dra_list;
     //CustomDrawerAdapter custom;
+    
+    // check out for that version
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
